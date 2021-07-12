@@ -21,6 +21,9 @@ git add -A
 git commit -m 'deploy'
  
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f $remote master:ghpages
+# git push -f $remote master:ghpages
+
+git remote add origin $remote
+git push -u origin ghpages
  
 cd -
