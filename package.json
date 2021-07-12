@@ -11,6 +11,7 @@
     "scripts": {
         "dev": "vuepress dev docs",
         "build": "vuepress build docs",
-        "deploy": "tcb framework:deploy"
+        "deploy:tcb": "tcb framework:deploy",
+        "deploy:shell": "./bins/deploy.sh"
     }
 }
