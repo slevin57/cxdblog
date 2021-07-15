@@ -7,5 +7,5 @@ module.exports = {
         logo: 'https://vuejs.org/images/logo.png',
     },
 
-    // base: '/cxdblog/',
+    base: '/cxdblog/',
 }
