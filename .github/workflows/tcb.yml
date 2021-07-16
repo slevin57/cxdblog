@@ -1,3 +1,10 @@
+#--------------------------------------------
+# 通过cloudbase-action自动部署到cloudbase云环境
+# author：pc
+#--------------------------------------------
+
+name: tcb_action_deploy
+
 on: [push] # push 代码时触发
 jobs:
     deploy:
@@ -18,5 +25,5 @@ jobs:
             envId: ${{ secrets.ENV_ID }}
             # Github 项目静态文件的路径
             staticSrcPath: docs/.vuepress/dist
-            # 如需将静态资源部署到云端的某个子目录而非根目录，需要下面这个参数
+            # 如需将静态资源部署到云端的某个子目录而非根目录，需要下面这个参数,以"staticSrcPath:public"为例
             # staticDestPath: ./public
