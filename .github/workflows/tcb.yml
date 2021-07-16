@@ -3,7 +3,7 @@
 # author：pc
 #--------------------------------------------
 
-name: tcb_action_deploy
+name: tcb-action-deploy
 
 on: [push] # push 代码时触发
 jobs:
