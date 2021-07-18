@@ -5,27 +5,6 @@ module.exports = {
 
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
-        // 侧边栏数组
-        // 所有页面会使用相同的侧边栏
-        sidebar: [
-            // SidebarItem
-            {
-                text: 'Foo',
-                link: '/foo/',
-                children: [
-                    // SidebarItem
-                    {
-                        text: 'github',
-                        link: 'https://github.com',
-                        children: [],
-                    },
-                    // 字符串 - 页面文件路径
-                    '/foo/bar.md',
-                ],
-            },
-            // 字符串 - 页面文件路径
-            '/bar/README.md',
-        ],
         navbar: [
             // 嵌套 Group - 最大深度为 2
             {
@@ -57,7 +36,28 @@ module.exports = {
                 ],
             },
         ],
-        darkMode: true
+        darkMode: true,
+        // 侧边栏数组
+        // 所有页面会使用相同的侧边栏
+        sidebar: [
+            // SidebarItem
+            {
+                text: 'Foo',
+                link: '/foo/',
+                children: [
+                    // SidebarItem
+                    {
+                        text: 'github',
+                        link: 'https://github.com',
+                        children: [],
+                    },
+                    // 字符串 - 页面文件路径
+                    '/foo/bar.md',
+                ],
+            },
+            // 字符串 - 页面文件路径
+            '/bar/README.md',
+        ],
     },
 
     // base: '/cxdblog/',
