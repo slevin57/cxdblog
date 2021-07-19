@@ -1,7 +1,27 @@
 ---
-lang: zh-CN
-title: 页面的标题
-description: 页面的描述
+title: aa页面
+description: aa描述
+pageClass: custom-page-aa-class
+prev:
+  text: Get Started
+  link: /guide/getting-started.html
+next:
+  text: Get End
+  link: /guide/getting-started.html
+sidebarDepth: 0
 ---
+[[toc]]
+# 1
+sdfsf
+## 2
+22222
+### 3
+333333
+#### 4
+34444444
+##### 5
+55555555
+###### 56
+666666
 sadfsd
 ![VuePress Logo](/images/4.jpg)
