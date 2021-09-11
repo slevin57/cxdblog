@@ -3,8 +3,8 @@
 home: true
 heroImage: /images/4.jpg
 heroAlt: sfsdf
-heroText: Hero 标题
-tagline: Hero 副标题
+heroText: Hero 标题1
+tagline: Hero 副标题2
 actions:
   - text: 快速上手
     link: /zh/guide/getting-started.html
